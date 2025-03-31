@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pizza Stores Dashboard</title>
+    <style>
+        body {
+            font-family: 'Poppins', sans-serif;
+            text-align: center;
+            margin: 0;
+            padding: 0;
+            background-color: #f3f1f1;
+        }
+        .header {
+            background-color: #d35400;
+            color: white;
+            padding: 20px;
+            font-size: 28px;
+            font-weight: bold;
+            position: relative;
+            box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
+        }
+        .logo {
+            position: absolute;
+            top: 10px;
+            right: 20px;
+            width: 60px;
+            height: 60px;
+            border-radius: 50%;
+            object-fit: cover;
+        }
+        .content {
+            margin: 30px auto;
+            width: 80%;
+            font-size: 20px;
+            color: #444;
+            font-family: 'Georgia', serif;
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        .dashboard-container {
+            margin: 30px auto;
+            width: 85%;
+            background: white;
+            padding: 10px;
+            height: auto;
+            max-height: 800px;
+            overflow: hidden;
+            border-radius: 10px;
+            box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        .footer {
+            margin-top: 30px;
+            padding: 20px;
+            background-color: #222;
+            color: white;
+            font-size: 18px;
+            box-shadow: 0px -4px 6px rgba(0, 0, 0, 0.2);
+        }
+        .contact-link {
+            font-size: 20px;
+            color: #ffd700;
+            text-decoration: none;
+            font-weight: bold;
+            transition: color 0.3s ease;
+        }
+        .contact-link:hover {
+            color: #ffeb3b;
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        Pizza Stores Analysis
+        <img src="https://www.shutterstock.com/shutterstock/photos/349411370/display_1500/stock-vector-user-sign-icon-person-symbol-human-avatar-flat-style-eps-349411370.jpg" alt="Logo" class="logo">
+    </div>
+    <div class="content">
+        <p>This project aims to analyze the performance of pizza stores based on various metrics such as revenue, total orders, average order value, and trends over time. The dashboard provides insights into customer preferences, popular cuisines, and payment methods.</p>
+    </div>
+    <div class="dashboard-container" style="margin: 0 auto; overflow: hidden; text-align: center;">
+        <div class='tableauPlaceholder' id='viz1743426519765' style='position: relative; margin: 0 auto;'>
+            <noscript>
+                <a href='#'><img alt='Pizza_sales_DB (2)' src='https://public.tableau.com/static/images/8M/8MP3ZKDC5/1_rss.png' style='border: none; width: 100%;' /></a>
+            </noscript>
+            <object class='tableauViz' style='display: block; margin: 0 auto;'>
+                <param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' />
+                <param name='embed_code_version' value='3' />
+                <param name='path' value='shared/8MP3ZKDC5' />
+                <param name='toolbar' value='yes' />
+                <param name='static_image' value='https://public.tableau.com/static/images/8M/8MP3ZKDC5/1.png' />
+                <param name='animate_transition' value='yes' />
+                <param name='display_static_image' value='yes' />
+                <param name='display_spinner' value='yes' />
+                <param name='display_overlay' value='yes' />
+                <param name='display_count' value='yes' />
+                <param name='language' value='en-US' />
+                <param name='filter' value='publish=yes' />
+            </object>
+        </div>
+        <script type='text/javascript'>
+            var divElement = document.getElementById('viz1743426519765');
+            var vizElement = divElement.getElementsByTagName('object')[0];
+            vizElement.style.width = divElement.offsetWidth + 'px';
+            vizElement.style.height = divElement.offsetWidth * 0.75 + 'px'; 
+            var scriptElement = document.createElement('script');
+            scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';
+            vizElement.parentNode.insertBefore(scriptElement, vizElement);
+        </script>
+    </div>
+    <div class="footer">
+        <a href="contact.html" class="contact-link">Contact Us</a>
+    </div>
+</body>
+</html>
